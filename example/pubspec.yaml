@@ -1,0 +1,16 @@
+name: snack_example
+description: An example of the `scrumlab_snack` package
+version: 1.0.0
+homepage: https://github.com/giulianojordao/scrumlab_snack
+
+publish_to: none
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  scrumlab_snack:
+    path: ../
